@@ -700,7 +700,7 @@ struct _info **read_dir(char *dir, int *n)
     if ((lst.st_mode & S_IFMT) == S_IFLNK) {
       if ((rs = stat(path,&st)) < 0) st.st_mode = 0;
     } else {
-      rs = 0;
+ //     rs = 0;
       st.st_mode = lst.st_mode;
       st.st_dev = lst.st_dev;
       st.st_ino = lst.st_ino;
