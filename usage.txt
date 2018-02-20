@@ -1,0 +1,6 @@
+tree   --help
+tree tree/   -Jf
+tree tree/   -Xf
+ tree --version
+tree -H  fred > test.html
+
