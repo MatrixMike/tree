@@ -3,4 +3,10 @@ tree tree/   -Jf
 tree tree/   -Xf
  tree --version
 tree -H  fred > test.html
+: see line 65 for sort types
+tree   --sort=name
+tree   --sort=version
+tree   --sort=size
+tree   --sort=mtime
+tree   --sort=ctime
 
